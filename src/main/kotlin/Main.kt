@@ -1,39 +1,21 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
-        // Integer
-        val intValue: Int = 42
-        println("Integer value: $intValue")
+fun main() {
+    var a: Int = 22
+    var b = 1.5F // Float
+    var c: Char = 'T'
+    var d: String = "SWASTIK MAKWANA"
+    var e: Boolean = false
+    var f: Double = 1.34374
+    val g: Long = 21012011046
+    val h: Short = -2
+    val i: Byte = 127
 
-        // Double
-        val doubleValue: Double = 3.14
-        println("Double value: $doubleValue")
-
-        // Float
-        val floatValue: Float = 2.718f
-        println("Float value: $floatValue")
-
-        // Long
-        val longValue: Long = 123456789L
-        println("Long value: $longValue")
-
-        // Short
-        val shortValue: Short = 32767
-        println("Short value: $shortValue")
-
-        // Byte
-        val byteValue: Byte = 127
-        println("Byte value: $byteValue")
-
-        // Char
-        val charValue: Char = 'A'
-        println("Char value: $charValue")
-
-        // Boolean
-        val booleanValue: Boolean = true
-        println("Boolean value: $booleanValue")
-
-        // String
-        val stringValue: String = "Hello, Kotlin!"
-        println("String value: $stringValue")
-
+    println("Integer Value: $a")
+    println("Float Value: $b")
+    println("Char Value: $c")
+    println("String Value: $d")
+    println("Boolean Value: $e")
+    println("Double Value: $f")
+    println("Long Value: $g")
+    println("Short Value: $h")
+    println("Byte Value: $i")
 }

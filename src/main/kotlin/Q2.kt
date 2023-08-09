@@ -1,19 +1,12 @@
 fun main() {
-    val intValue: Int = 42
-    val doubleValue: Double = intValue.toDouble()
-
-    println("Integer value: $intValue")
-    println("Converted to Double: $doubleValue")
-
-    val stringValue: String = "123"
-    val intValue2: Int = stringValue.toInt()
-
-    println("String value: $stringValue")
-    println("Converted to Integer: $intValue2")
-
-    val stringValue2: String = "3.14"
-    val doubleValue2: Double = stringValue.toDouble()
-
-    println("String value: $stringValue2")
-    println("Converted to Double: $doubleValue2")
+    var int_val: Int = 10
+    var new_value: Double = int_val.toDouble()
+    println("21012011046")
+    println("Integer Value: $int_val \nDouble From Integer: $new_value")
+    var string: String = "10"
+    var new_string: Int = string.toInt()
+    var dou_string: Double = string.toDouble()
+    var new: Double = dou_string + 1.12
+    println("String Value: $string \nInteger Value1: $new_string \nDouble Value: $dou_string")
+    println("New Double Value: $new")
 }
